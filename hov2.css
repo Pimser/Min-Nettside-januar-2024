@@ -1,0 +1,125 @@
+*{
+    background-color: rgb(115, 115, 115);
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    height: 100vh;
+    overflow: hidden;
+}
+    
+
+.hovedbakgrunn{
+    background-image: url(FjellskogDeluxe.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: transparent;
+    padding-right: 200px;
+    
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+}
+
+hr{
+    border: 3px solid #313131;
+    margin: px 0;
+}
+
+#tittel{
+    display: flex;
+    justify-content: left;
+    padding-right: 400px;
+    background-color: transparent;
+    font-size: 50px;
+}
+
+#Meg{
+    margin-right: 10px;
+}
+
+#kontakt{
+    margin-right: 10px;
+}
+
+
+#knapp1{
+    color: rgb(1, 162, 1);
+    background-color: rgb(73, 73, 73);
+    width: 150px ;
+    height: 50px ;
+    font-size: 30px;
+    transition: background-color 0,3 ease;
+    border-radius: 15px;
+}
+
+#knapp1:hover{
+    background-color: rgb(83, 83, 83);
+}
+
+#knapp2:hover{
+    background-color: rgb(83, 83, 83);
+}
+
+#knapp2{
+    background-color: rgb(73, 73, 73);
+    color: rgb(1, 162, 1);
+    width: 150px ;
+    height: 50px ;
+    font-size: 30px;
+    border-radius: 16px;
+    border: transparent;
+    transition: background-color 0,3 ease;
+}
+
+
+/* body{
+    color: red;
+    display: grid;
+    grid-template-areas: 
+    "topbar topbar "
+    "sidebar content"
+    "footer footer";
+
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows:;
+}
+
+
+header{
+    color: blue;
+    grid-area: header;
+}
+
+main{
+    color: rgb(24, 192, 24);
+    /* grid-area: main;
+    display: grid; */
+/* }
+
+.kolonne1{
+    grid-area: ;
+}
+
+.kolonne2{
+    grid-area: sidebar;
+}
+
+.content1{
+    grid-area: content;
+} */ 
+

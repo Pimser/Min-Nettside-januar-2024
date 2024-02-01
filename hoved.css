@@ -1,0 +1,96 @@
+*{
+
+}
+
+#main {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-areas:
+    
+    "sidebar hovedside"
+
+    
+}
+
+.kolonne1 {
+    grid-area: sidebar ;
+    background-color: red;
+    width: 100%;
+
+}
+
+.kolonne2 {
+    grid-area: hovedside;
+    background-color: orange;
+    height: 100%;
+}
+
+.main .we2 .me {
+    grid-area: ;
+    background-color: yellow
+}
+
+.header{
+
+    background-color: #000000;
+    display: grid;
+}
+
+
+.linkList{
+    list-style: none;
+    display: flex;
+    right: ;
+    left: ;
+    bottom: ;
+    top: ;
+    
+ 
+
+}
+
+/* .linkList{
+    
+    align-items: center;
+    justify-content: space-around;
+} */
+.linkList li{
+    padding: 2rem;
+
+    
+}
+
+.we{
+    background-color: #81B622;
+    font-size: medium;
+    color: rgb(81, 255, 95);
+}
+
+.we2{
+    background-color: #3D550C;
+}
+/* .Om{
+    position: ;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.Mer{
+    position: ;
+    right: ;
+    top: ;
+    bottom: ;
+    left: ;
+}
+
+li{
+    list-style: none;
+
+}
+
+header{
+    background-color: black;
+    opacity: 50%;
+} */
